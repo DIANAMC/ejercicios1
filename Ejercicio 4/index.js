@@ -14,7 +14,7 @@ for(i=0; i<=valores.length; i++){
     // El las proximas progagandas continuo
 
     
-    if (valores[i].type == Number) {
+    if (typeof(valores[i]) === "number") {
         var Num = new Set();
         var suma= Num[0]+Num[1];
         var resta= Num[0]-Num[1];
@@ -32,7 +32,7 @@ for(i=0; i<=valores.length; i++){
 
 
     }
-    if(valores[i].type== String){
+    if(typeof(valores[i])=== "string"){
         var txt = new Set();
         txt = valores[i];
 
@@ -45,7 +45,7 @@ for(i=0; i<=valores.length; i++){
 
 
     }
-    if(valores[i].type == Boolean){
+    if(typeof(valores[i]) === "boolean"){
         var bole = new Set();
         bole = valores[i];
         var rest1 = bole[0] || bole[1];
