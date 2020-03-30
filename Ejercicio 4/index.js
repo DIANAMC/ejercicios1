@@ -1,6 +1,19 @@
-var valores = [true,5,"adios", 2,false,"hola"];
+var valores = [true,5,"adios", 2,false, "hola" ];
 
 for(i=0; i<=valores.length; i++){
+    // Lo primero que hacemos es hacer un console log de los datos
+    // Para asi saber que datos tenemos
+
+    console.log("Estos son los datos ", valores[i]);
+
+    // Ya sabemos que tenemos los tipos de datos tenemos
+    // Ahora vamos a mirar el valor que tipo de dato es cada posicion del arreglo
+    // Revisa los logs para que leas el codigo y lo entiendas
+    console.log("El valor de este campo es ", valores[i] ," Este dato es de tipo",  typeof(valores[i]))
+
+    // El las proximas progagandas continuo
+
+    
     if (valores[i].type == Number) {
         var Num = new Set();
         var suma= Num[0]+Num[1];
