@@ -24,7 +24,6 @@ function mayorQue(n1,n2,n3){
     }else{
         alert("El numero mayor es "+n5)
     }
-
 }
 
 mayorQue(n1,n2,n3)
